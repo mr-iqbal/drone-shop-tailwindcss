@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Drone Shop Landing Page</title>
+</head>
+<body>
+  <div class="grid grid-cols-1 font-rubik">
+    <section id="section-1">
+      <!-- Start: Navigation Bar -->
+      <div class="bg-gray-100 py-6 px-4 md:space-y-4 lg:px-2 lg:py-2"> 
+        <!-- Start: ICON -->
+        <div class="flex items-center space-x-14 md:space-x-44 lg:space-x-12 lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 lg:hidden" id="hamburger" fill="none" viewBox="0 0 24 24" stroke="#0A1229">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <img class="w-2/3 md:w-5/12 lg:hidden"src="../img/logo.svg" alt="">
+        </div>
+        <!-- END: ICON -->
+        <!--  -->
+        <div class="grid grid-cols-1 justify-items-center justify-center items-center lg:flex lg:items-center lg:justify-center" id="menu-items">
+          <ul class="text-sm px-4 space-y-4 md:space-y-8 mt-10 text-center hidden lg:space-x-16 lg:flex lg:items-center lg:justify-items-center lg:justify-center lg:text-center">
+            <li class=""><img src="../img/logo.svg" alt=""> </li>
+            <li class="md:text-lg">Home</li>
+            <li class="md:text-lg">Gallery</li>
+            <li class="md:text-lg">Review</li>
+            <li class="md:text-lg">Products</li>
+            <li class="md:text-lg">Support</li>
+            <li class="md:text-lg">
+              <button class="bg-none p-4 text-blue font-medium hover:text-black">Sign In</button>
+            </li>
+            <li class="">
+              <button class="bg-blue px-6 py-2 md:px-8 md:py-4 text-white rounded-full font-semibold hover:text-gray-300">Register</button>
+            </li>
+          </ul>
+        </div>
+        <!-- End: Navigation Bar -->
+        <!-- Start: Hero Content -->
+        <div class="hero px-8 py-8 lg:py-16 space-y-8 md:space-y-14 ">
+          <div class="btn grid justify-center items-center lg:flex lg:justify-start">
+            <button class="flex items-center justify-center justify-items-center bg-red-100 rounded-full font-medium px-6 py-2">
+            <!-- Start:Logo Discount -->
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3. org/2000/svg">
+              <path d="M19.4609 0.539648C19.1133 0.191641 18.6509 0 18.1589 0H11.1476C10.6558 0 10.1934 0.191563 9.84555 0.539414L0.539492 9.84547C0.191563 10.1934 0 10.6557 0 11.1475C0 11.6393 0.191641 12.1016 0.539492 12.4493L7.55059 19.4604C7.89832 19.8084 8.3607 20 8.8525 20C9.34426 20 9.80664 19.8084 10.1545 19.4605L19.4606 10.1545C19.8084 9.80664 20 9.34422 20 8.85238V1.84113C20 1.34906 19.8084 0.886641 19.4609 0.539648ZM16.2761 4.30988C15.9526 4.30988 15.6901 4.04738 15.6901 3.72395C15.6901 3.40051 15.9526 3.13801 16.2761 3.13801C16.5995 3.13801 16.862 3.40051 16.862 3.72395C16.862 4.04738 16.5995 4.30988 16.2761 4.30988Z" fill="#FF645A"/>
+              </svg>
+            <!-- End:Logo Discount -->
+            <h1 class="font-normal text-sm ml-4 text-red uppercase text-abang">Get 25% discount</h1>
+            </button>
+          </div>
+          <!-- Start: Image Hero -->
+          <div class="image-hero">
+            <img src="../img/hero-image.svg" alt="">
+          </div>  
+          <!-- End: Image Hero -->
+          <!-- Start: Hero Title -->
+          <div class="hero-title space-y-6 md:space-y-10 md:grid md:justify-items-center">
+            <h1 class="font-bold text-3xl md:text-4xl text-black ">Representing Drone Light</h1>
+            <p class="text-sm md:text-lg font-normal text-gray-400 md:text-center lg:text-left">
+              Look up the sky and beautiful world with simple <br> navigation. Just record and get a lot memories to <br> share, lightly and fast like a lightning.
+            </p>
+            <button class="uppercase bg-blue rounded-full font-medium px-4 py-2 text-xs md:px-8 md:py-3 md:text-sm   text-white">Get Now</button>
+          </div>
+          <!-- End: Hero Title -->
+        </div>
+        <!-- End: Hero Content -->
+    </section>
+    <section id="section-2">
+      <div class="grid grid-cols-1">
+        <div class="text-center relative">
+          <img class="object-cover relative" src="../img/ultra_light.png" alt="">
+          <h1 class="font-bold text-2xl md:text-4xl text-bold absolute inset-10 text-white">Ultra Light</h1>
+          <p class="text-gray-50 text-sm md:text-lg font-normal absolute inset-24">Drone move faster with weighing component <strong> under 200 g </strong> </p>
+        </div>
+        <div class="text-center relative">
+          <img class="object-cover relative" src="../img/best_resolution.png" alt="">
+          <h1 class="font-bold text-2xl md:text-4xl text-bold absolute inset-10 text-white">Best Resolution</h1>
+          <p class="text-gray-50 text-sm md:text-lg font-normal absolute inset-24">Take a beautiful view with best camera
+            up to <strong> 4K Camera Resolution</strong> </p>
+        </div>
+      </div>
+    </section>
+    <section id="section-3">
+      <div class="text-center px-8 py-8 space-y-6 md:space-y-10 bg-gray-100">
+        <h1 class="font-bold text-2xl md:text-3xl text-black">Why Drone Light?</h1>
+        <p class="font-normal text-sm md:text-lg text-gray-400">We provide a best self drone easy to use and operate. With
+          auto pilot, the device will <br> take a beautiful  view for the
+          best of flying operation.</p>
+        <div class="grid grid-cols-1  space-y-6">
+          <div class="item-1 text-center space-y-2">
+            <h1 class="text-2xl md:text-3xl font-bold text-black">4K</h1>
+            <p class="text-gray-500 text-sm md:text-lg  font-normal">Camera <br> Resolution</p>
+          </div>
+          <div class="item-2 text-center space-y-2">
+            <h1 class="text-2xl md:text-3xl font-bold text-black">2TB </h1>
+            <p class="text-gray-500 text-sm md:text-lg font-normal ">Storage <br> Capacity</p>
+          </div>
+          <div class="item-3">
+            <h1 class="text-2xl md:text-3xl font-bold text-black">60 m/s </h1>
+            <p class="text-gray-500 text-sm md:text-lg font-normal ">Super <br> Max Speed</p>
+          </div>
+          <div class="item-4">
+            <h1 class="text-2xl md:text-3xl font-bold text-black">30 Mins </h1>
+            <p class="text-gray-500 text-sm md:text-lg font-normal mb-24 md:mb-60">Long Flight <br> Time</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="section-4" class="relative ">
+      <div class="image flex items-center justify-center justify-items-center absolute -top-20 md:-top-48">
+        <img class="w-1/2" src="../img/features_cut_bg.png" class="" alt="">
+      </div>
+      <div class="px-8 py-8 space-y-10 mt-24 md:mt-60">
+        <h1 class="font-bold text-2xl md:text-3xl text-black text-center">4K video shot on our <br> Drone Light</h1>
+        <div class="rectangle-video flex items-center justify-center object-center relative">
+          <img class="shadow-sm rounded-md w-full" src="../img/image 5.png" alt="">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:h-20 md:w-20 absolute" viewBox="0 0 20 20" fill="#fff">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section id="section-4">
+      <div class="grid grid-cols-1 px-8 py-8 space-y-10 md:space-y-240 md:mt-14">
+        <div class="title text-center space-y-4">
+          <h1 class="text-black text-xl md:text-3xl font-bold">New Products</h1> 
+          <p class="text-gray-500 text-s font-normal">
+            New innovation, best quality than before.
+              make every moment flying operation become unforgettable.
+          </p>
+          <!-- Start: Slider -->
+          <div class="card border-2 border-gray-100 rounded-lg py-4 px-4 space-y-4 md:space-y-6">
+            <img class="rounded-lg md:w-full" src="../img/mini_drone 1.png" alt="">
+            <h1 class="font-semibold text-lg md:text-xl text-black">Mini Drone</h1>
+            <h1 class="font-bold text-xl md:text-3xl text-black">Rp18.755.000</h1>
+            <p class="text-xs md:text-sm md:text-center text-gray-500 font-normal">Powerful camera drone at an
+              affordable price range. Camera
+              up to 4K resolution, optimize shots
+              automatically.</p>
+            <button class="bg-blue font-semibold px-6 py-2 md:px-12 md:py-3 text-white text-xs md:text-sm rounded-full">Get Now</button>
+          </div>
+          <div class="card border-2 border-gray-100 rounded-lg py-4 px-4 space-y-4">
+            <img class="rounded-lg md:w-full" src="../img/josh-sorenson-ouuigywbXlI-unsplash 1.png" alt="">
+            <h1 class="font-semibold text-lg md:text-xl text-black">Drone Light</h1>
+            <h1 class="font-bold text-xl md:text-3xl text-black">RP23.086.000</h1>
+            <p class="text-xs md:text-sm  text-gray-500 font-normal">Drone light is every creators dream.
+              Setting apperture manually and high
+              baterry performance. Drone light is
+              everything you need.</p>
+            <button class="bg-blue font-semibold px-6 py-2 md:px-12 md:py-3 text-white text-xs md:text-sm rounded-full">Get Now</button>
+          </div>
+          <div class="card border-2 border-gray-100 rounded-lg py-4 px-4 space-y-4">
+            <img class="rounded-lg md:w-full" src="../img/phantom_drone 1.png" alt="">
+            <h1 class="font-semibold text-lg md:text-xl text-black">Phantom Drone</h1>
+            <h1 class="font-bold text-xl md:text-3xl text-black">Rp8.640.000</h1>
+            <p class="text-xs md:text-sm  text-gray-500 font-normal">Inspired by phantom, drone
+              can move faster and quickly like a ghost.
+              Focus on speed so you can investigate
+              environtment quickly.</p>
+            <button class="bg-blue font-semibold px-6 py-2 md:px-12 md:py-3 text-white text-xs md:text-sm rounded-full">Get Now</button>
+          </div>
+          <!-- End: Slider -->
+        </div>
+      </div>
+    </section>
+    <section id="section-5">
+      <div class="px-8 py-8 space-y-10 bg-gray-100">
+        <h1 class="font-bold text-2xl text-black">What Our "Pilots" Are Saying</h1>
+        <!-- Start:Card -->
+          <div class="card-wrapper space-y-10">
+            <div class="card-1 rounded-md bg-white space-y-8 px-6 py-4 md:py-6 shadow-sm">
+              <p class="text-xs md:text-sm font-normal text-black">“With high resolution camera,
+                picture become clear and beautiful.
+                It’s so easy to operate drone.” </p>
+              <div class="flex items-center space-x-4 ">
+                <img class="h-10 w-10 " src="../img/people1.png" alt="">
+                <div class="block ">
+                  <h1 class="font-bold text-sm text-black">Lucas Walker</h1>
+                  <p class="text-xs text-gray-500">Content Creator</p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card-2 rounded-md bg-white space-y-8 px-6 py-4 md:py-6 shadow-sm">
+              <p class="text-xs md:text-sm font-normal text-black">“Taking high view video become
+                easy and faster. Battery perfomance
+                really helping for making film.” </p>
+              <div class="flex items-center space-x-4 ">
+                <img class="h-10 w-10 " src="../img/Ellipse 56.png" alt="">
+                <div class="block ">
+                  <h1 class="font-bold text-sm text-black">Jessica Obrien</h1>
+                  <p class="text-xs text-gray-500">Film Director</p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="card-3 rounded-md bg-white space-y-8 px-6 py-4 md:py-6 shadow-sm">
+              <p class="text-xs md:text-sm font-normal text-black">“Making video content for my trip
+                vlog so powerful and wonderful.
+                Love the video quality.” </p>
+              <div class="flex items-center space-x-4 ">
+                <img class="h-10 w-10 " src="../img/Ellipse 57.png" alt="">
+                <div class="block ">
+                  <h1 class="font-bold text-sm text-black">Lisa Miller</h1>
+                  <p class="text-xs text-gray-500">Content WQCreator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- End:Card -->
+      </div>
+    </section>
+    <section id="section-6">
+      <div class="bg-black">
+        <div class="grid grid-cols-1 justify-items-center space-y-8 px-6 py-6">
+          <div class="flex flex-col space-y-6 text-center justify-items-center items-center">
+            <img class="w-2/3" src="../img/Logo-2.svg" alt="">
+            <p class="text-sm font-normal text-white">Look up the sky and beautiful
+              world easily.</p>
+            <div class="socmed grid grid-cols-4 gap-3">
+              <img class="h-10" src="../img/social-facebook.svg" alt="">
+              <img class="h-10" src="../img/social-instagram.svg" alt="">
+              <img class="h-10" src="../img/social-twitter.svg" alt="">
+              <img class="h-10" src="../img/social-youtube.svg" alt="">
+            </div>
+          </div>
+          <div class="flex flex-col space-y-3 text-center justify-items-center items-center">
+            <p class="font-semibold text-lg text-white">Explore</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Our Services</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Spesification</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Refund</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Pricelist</p>
+          </div>
+          <div class="flex flex-col space-y-3 text-center justify-items-center items-center">
+            <p class="font-semhover:text-blue ibold text-lg text-white">Account</p>
+            <p class="text-sm hover:text-blue font-thin text-white">My Account</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Top Benefit</p>
+            <p class="text-sm hover:text-blue font-thin text-white">How-to Tutorials</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Moment</p>
+          </div>
+          <div class="flex flex-col space-y-3 text-center justify-items-center items-center">
+            <p class="font-semibold text-lg text-white">Office</p>
+            <p class="text-sm hover:text-blue font-thin text-white">+022 123 4567</p>
+            <p class="text-sm hover:text-blue font-thin text-white">Bandung, Indonesia</p>
+            <p class="text-sm hover:text-blue font-thin text-white">No. 2 (Autodrone)</p>
+            <p class="text-sm hover:text-blue font-thin text-white">support@autodrone.id</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+  <script>
+    //Hamburger Menu
+    const hamburger = document.querySelector('#hamburger')
+        
+    const menu = document.querySelector('#menu-items ul')
+    hamburger.addEventListener('click',function(){
+    menu.classList.toggle('hidden')
+    })
+
+  </script>
+</body>
+</html>
